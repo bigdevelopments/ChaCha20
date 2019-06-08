@@ -12,4 +12,4 @@ Basics are:
 * Create a 32 byte key (derived for a password most likely using some hashing technique).
 * Create a 12 byte nonce - a random 12 bytes, this should be different every time an encryption is performed.
 * Construct the RapidChaCha object using the above.
-* Call one of the Transform overloads to encrypt of decrypt a buffer. If doing this repeatedly for streaming, make sure that the buffers presented are multiple of 64 bytes to prevent counter corruption.
+* Call one of the Transform overloads to encrypt or decrypt a buffer. If doing this repeatedly for streaming, make sure that the buffers presented are multiple of 64 bytes to prevent counter corruption.
